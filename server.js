@@ -19,7 +19,7 @@ var T = new twit({
 
 //function tweeting() {
   //var tweet = document.getElementById('new_tweet').value;
-  T.post('statuses/update', { status: 'calling index!' }, function(err, data, response) {
+  T.post('statuses/update', { status: 'new' }, function(err, data, response) {
     console.log(data)
   })
 //}
