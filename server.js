@@ -7,7 +7,9 @@
 //   console.log(json.Title + '\n' + json.Year + '\n' + json.Poster);
 // });
 
-
+function here() {
+  console.log("sdfsdf");
+}
 
 function tweeting() {
   var twit = require('twit');
@@ -20,8 +22,7 @@ function tweeting() {
     timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   })
 
-  T.post('statuses/update', { status: 'it works too' }, function(err, data, response) {
+  T.post('statuses/update', { status: 'newww' }, function(err, data, response) {
     console.log(data);
-  })
-
+  });
 }
