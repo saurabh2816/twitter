@@ -6,12 +6,13 @@
 //     else
 //   console.log(json.Title + '\n' + json.Year + '\n' + json.Poster);
 // });
+// it add . && git commit -m "changes" && git push -u origin master
 
 function here() {
   console.log("sdfsdf");
 }
 
-function tweeting() {
+//function tweeting() {
   var twit = require('twit');
 
   var T = new twit({
@@ -25,4 +26,4 @@ function tweeting() {
   T.post('statuses/update', { status: 'newww' }, function(err, data, response) {
     console.log(data);
   });
-}
+//}

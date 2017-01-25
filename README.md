@@ -1,3 +1,1 @@
-deploying a twitter bot 
-https://github.com/maxogden/art-of-node
-nodeschool.io
+tweet to twitter using Nodejs

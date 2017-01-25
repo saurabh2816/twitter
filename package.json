@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabh2816/learnyounode.git"
+    "url": "git+https://github.com/saurabh2816/twitter.git"
   },
   "keywords": [
     "twitter"
@@ -16,10 +16,12 @@
   "author": "Saurabh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saurabh2816/learnyounode/issues"
+    "url": "https://github.com/saurabh2816/twitter/issues"
   },
-  "homepage": "https://github.com/saurabh2816/learnyounode#readme",
+  "homepage": "https://github.com/saurabh2816/twitter#readme",
   "dependencies": {
     "twit": "^2.2.5"
   }
 }
+
+{ "scripts": { "start": "node server.js"} },
