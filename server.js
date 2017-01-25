@@ -6,8 +6,7 @@
 //     else
 //   console.log(json.Title + '\n' + json.Year + '\n' + json.Poster);
 // });
-// it add . && git commit -m "changes" && git push -u origin master
-
+// git add . && git commit -m "changes" && git push -u origin master
 function here() {
   console.log("sdfsdf");
 }
