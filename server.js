@@ -22,7 +22,7 @@ function here() {
     timeout_ms:           60*1000,  // optional HTTP request timeout to apply to all requests.
   })
 
-  T.post('statuses/update', { status: 'newww' }, function(err, data, response) {
+  T.post('statuses/update', { status: 'dlkdsfjdsflkj' }, function(err, data, response) {
     console.log(data.text);
   });
 //}
