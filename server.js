@@ -23,6 +23,6 @@ function here() {
   })
 
   T.post('statuses/update', { status: 'newww' }, function(err, data, response) {
-    console.log(data);
+    console.log(data.text);
   });
 //}
